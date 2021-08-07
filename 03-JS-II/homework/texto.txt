@@ -1,0 +1,25 @@
+EL bucle for es una sintaxis similar alc ondicional if,
+solo que este es un poco mas compleja,
+lo qu debemos haces es colocar la palabra for abrimos y cerramos parentesis
+luesgo abrimos  corchetes dentro de ellas se tiene que cumolir tres reglas.
+la primera se declara la variable, esto es lo que repetia en el bucle,
+entonces en es momento tendremos una expresion condicional
+el ciclo continuara hasta que la expresion sea false tercero incremnetaremos la variable,
+ las tres funciones dentro del bucle for estan separadas por un punto y coma.
+
+
+LOS OPERADORES LOGICOS 
+&&(AND) es un aperador logico que evalua si ambas expresiones son iguales, de ser asi disparara un true
+y false si una de ellos o ambos son distinta Ejemplo:
+if(15<115 && 15===15){
+    console.log('Ambas declaraciones son cierta, este codigo se ejecutara');
+}
+||"Ó"(OR) este operarador logico determina si una de las expresiones o ambas son true devuelve tal dicho. 
+osea true pero si ambas expresiones son falsa devolvera false por ejemplo:
+if(15<115 || 15===15){
+    console.log('ambas declaraciones son ciertas este codigo se ejecutara');
+}
+! (NOT) Opera opuestamente a lo que le uno le pasa, esto quiere decir que el valor booleano siempre va a ser el contrario.
+if(!(10===10)){
+    console.log('1 es igual a 1, de modo que la expresión devuelve true. El operador ! devolverá lo contrario de eso, por lo que este código NO se ejecutará');
+}
